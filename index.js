@@ -22,7 +22,7 @@ try {
     if (err) {
       throw err;
     }
-    core.info(`Uploaded ${source_file} to ${data.Location}`);
+    core.info(`Uploaded ${SOURCE_FILE} to ${data.Location}`);
   });
 } catch (error) {
   core.setFailed(error.message);
