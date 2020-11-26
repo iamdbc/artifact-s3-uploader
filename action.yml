@@ -1,0 +1,15 @@
+name: 'artifact-s3-uploader'
+description: 'upload github action artifact to s3'
+inputs:
+  bucket:
+    description: 'bucket name'
+    required: true
+  key:
+    description: 'destination s3 object key in bucket'
+    required: true
+  path:
+    description: 'file to upload'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
