@@ -7,7 +7,7 @@ $ ncc build index.js --license licenses.txt
 
 ### usage
 
-remember upload to your public bucket
+only support to upload to `public` bucket
 
 add secrects in your repo setting
 like
